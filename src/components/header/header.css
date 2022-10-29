@@ -64,6 +64,9 @@ header {
 /* ===========TABLET======= */
 @media screen and (max-width: 1024px) {
     
+    .about__container {
+        grid-template-columns: 1fr;
+    }
     header {
         height: 68vh;
     }
@@ -80,5 +83,3 @@ header {
             display: none;
         }
     }
-
-    
